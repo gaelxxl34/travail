@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>LOGIN and REGISTER page</title>
+    <link rel="stylesheet" href="login.css">
+    </head>
+
+   <body >
+   
+
+
+<div class="container">
+   
+<div class="card">
+    <div class="inner-box" id="card">
+        <div class="card-front">
+
+        <h2>LOGIN</h2>
+        <form>
+
+        <input type="email" class="input-box" placeholder="your Email id" required>
+        <input type="password" class="input-box" placeholder="password" required >
+        <a href="welcome page.html"><button type="submit" class="submit-btn">submit</button></a>
+        <input type="checkbox"><span>remember me</span>
+
+        </form>
+       
+<button type="button" class="btn" onclick="openRegister()"> I AM NEW HERE </button>
+<a href="">forgot password</a>
+
+
+
+<video id="videoBG" poster="social.bmp" autoplay muted loop class="back">
+    <source src="login.mp4" type="video/mp4">
+</video>
+
+
+</div>
+
+
+        <div class="card-back">
+            <h2>REGISTER</h2>
+<form>
+    <input type="text" class="input-box" placeholder="your name" required>
+<input type="email" class="input-box" placeholder="your Email id" required><br>
+<input type="password" class="input-box" placeholder="password" required>
+<a href="welcome page.html.html"><button type="submit" class="submit-btn">submit</button></a>
+<input type="checkbox"><span>remember me</span>
+
+</form>
+
+<button type="button" class="btn" onclick="openLogin()"> I HAVE STARTED CHANGEMENT </button>
+<a href="">forgot password</a>
+<video id="videoBG" poster="social.bmp" autoplay muted loop class="back">
+    <source src="register.mp4" type="video/mp4">
+</video>
+        </div>
+    </div>
+
+</div>
+</div>
+
+<script>
+
+var card = document.getElementById("card");
+
+function openRegister(){
+    card.style.transform = "rotateY(-180deg)";
+}
+var card = document.getElementById("card");
+
+function openLogin(){
+    card.style.transform = "rotateY(0deg)";
+}
+
+
+</script>
+
+   </body>
+</html>
+
+
+
+
